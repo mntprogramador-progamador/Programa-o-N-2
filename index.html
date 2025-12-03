@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seu Site — Título Aqui</title>
+  <meta name="description" content="Breve descrição do seu site.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand"><a href="#">Seu Nome / Marca</a></h1>
+      <nav class="nav">
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h2>Olá — eu sou <span class="accent">Seu Nome</span></h2>
+        <p>Descrição curta: desenvolvedor, designer, etc. Troque esse texto com o que quiser.</p>
+        <p>
+          <a class="btn" href="#projects">Ver projetos</a>
+          <a class="btn outline" href="#contact">Entrar em contato</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="container section" id="about">
+      <h3>Sobre</h3>
+      <p>
+        Aqui você coloca um texto sobre você ou sua empresa. Ex: "Sou desenvolvedor front-end com foco em sites rápidos e acessíveis."
+      </p>
+    </section>
+
+    <section class="container section" id="projects">
+      <h3>Projetos</h3>
+      <div class="grid">
+        <!-- Copie este bloco para adicionar novos projetos -->
+        <article class="card">
+          <h4>Projeto 1</h4>
+          <p>Breve descrição do projeto. Links e tecnologias usadas.</p>
+          <p><a href="#" target="_blank" rel="noopener">Ver</a></p>
+        </article>
+
+        <article class="card">
+          <h4>Projeto 2</h4>
+          <p>Breve descrição do projeto.</p>
+          <p><a href="#" target="_blank" rel="noopener">Ver</a></p>
+        </article>
+        <!-- fim do exemplo -->
+      </div>
+    </section>
+
+    <section class="container section" id="contact">
+      <h3>Contato</h3>
+      <p>Você pode deixar um email, link para LinkedIn/GitHub ou um formulário simples.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:seu@email.com">seu@email.com</a></li>
+        <li>GitHub: <a href="https://github.com/seu-usuario" target="_blank" rel="noopener">github.com/seu-usuario</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Seu Nome — Feito com ♥</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
